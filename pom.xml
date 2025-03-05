@@ -19,7 +19,7 @@
 						</goals>
 						<configuration>
 							<headerType>gui</headerType>
-							<outfile>${project.build.directory}/T5-0.0.1-SNAPSHOT.exe</outfile>
+							<outfile>${project.build.directory}/${project.build.finalName}.exe</outfile>
 
 							<jar>
 								${project.build.directory}/${project.build.finalName}.jar</jar>

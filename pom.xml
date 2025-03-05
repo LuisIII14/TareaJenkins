@@ -19,8 +19,8 @@
 						</goals>
 						<configuration>
 							<headerType>gui</headerType>
-							<outfile>
-								${project.build.directory}/${project.build.finalName}.exe</outfile>
+							<outfile>${project.build.directory}/T5-0.0.1-SNAPSHOT.exe</outfile>
+
 							<jar>
 								${project.build.directory}/${project.build.finalName}.jar</jar>
 							<errTitle>App Error</errTitle>
